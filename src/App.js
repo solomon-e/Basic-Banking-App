@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Navibar from './components/Navibar'
+import Banking from './components/Banking'
+import Balance from './components/Balance'
+import { Stack } from 'react-bootstrap';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Navibar />
+        <Stack gap={2} className="col-md-7 mx-auto">
+          <Balance />
+          <Banking />
+        </Stack>
     </div>
   );
 }
