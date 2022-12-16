@@ -1,6 +1,7 @@
-# Basicc Banking App
+# MakersValley Front-End Code Engineer Challenge 
+## Challenge #1
 
-### The user can:
-* deposit money
-* withdraw money
-* check account balance 
+### Build a basic banking app where the user would be able to:
+* See their current account balance
+* Deposit an amount into the account
+* Withdraw an amount from the account
